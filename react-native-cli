@@ -1,0 +1,5 @@
+React Native Cli - Node, Watchman, JDK
+
+brew install watchman (I chose gem install option)
+brew tap AdoptOpenJDK/openjdk
+brew cask install adoptopenjdk8

@@ -1,0 +1,43 @@
+Shortcuts in VSCode
+
+Shift+Cmd+P / F1 : Run Commands
+Shift+Cmd+B: Select the build task to run
+Ctrl+`: Terminal Show/Hide
+Cmd+F2: Change all occurrences
+Shift+Alt+DownArrow: Copy the line
+Cmd+Alt+DownArrow: Select multi lines (can be processed at a time)
+Cmd+P: Go to Files
+Alt+Down/Up: Move line
+Alt+Z: Wrap up the editor
+Alt + Mouse Click: Multi selection
+Shift+Alt+F: Refactor Code
+
+Plugins in VSCode
+Angular 8 Snippets - Typescript, Html, Angular Material, ngRx,
+Angular Snippets (Version 8)
+Beautify
+Bracket Pair Colorizer 2
+Debugger for Chrome
+Docker
+EditorConfig for VS Code
+EJS language support
+EJS Snippets
+ES7 React/Redux/GraphQL/React-Native snippets
+(ESLint)
+Go
+Laravel 5 Snippets
+Laravel Blade Snippets
+Laravel Extra Intellisense
+Material Icon Theme
+(Path Intellisense)
+PHP Intelephense 1.3.6 (BenMewburn)
+PHP Namespace Resolver
+Python
+Python Path
+Python Indent
+React-Native/React/Redux snippets for es6/es7
+Sass
+(SVG)
+Vetur
+Vue 2 Snippets
+Django (disable)

@@ -1,0 +1,9 @@
+Shortcuts in JetBrains (PhpStorm)
+
+Shift+Cmd+O: go to files
+Alt+Click: Multi selection
+F5: Duplication the current file in editor
+.row + Tab: complete html tag
+Cmd+D: Copy line
+Shilf+Alt+Up/Down: Move line
+Alt+F12: Show/Hide Terminal

@@ -1,0 +1,95 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2511
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\froman\fcharset0 Times-Roman;\f1\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue233;\red0\green0\blue0;\red0\green0\blue0;
+\red246\green247\blue249;}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c93333;\cssrgb\c0\c0\c0;\csgray\c0\c0;
+\cssrgb\c97255\c97647\c98039;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\sl280\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "https://getgrav.org/blog/macos-catalina-apache-multiple-php-versions"}}{\fldrslt 
+\f0\fs24 \cf2 \expnd0\expndtw0\kerning0
+\ul \ulc2 \outl0\strokewidth0 \strokec2 https://getgrav.org/blog/macos-catalina-apache-multiple-php-versions}}
+\f0\fs24 \cf2 \expnd0\expndtw0\kerning0
+\ul \ulc2 \outl0\strokewidth0 \strokec2 \
+\
+
+\f1 \cf0 \kerning1\expnd0\expndtw0 \ulnone \outl0\strokewidth0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 Brew unlink php && brew link (\'97force \'97overwrite) php@x.x\
+\
+Stop, unload and disable the current preinstalled apache on Mac:\
+- sudo apachectl stop\
+- sudo launchctl unload -w /System/Library/LaunchDaemons/org.apache.httpd.plist 2>/dev/null\
+\
+Install the new version provided by brew:\
+- brew install http\
+\
+Start new apache server:\
+- sudo brew services start https (or) - sudo apachectl start (Remember to use sudo, otherwise apache is not working)\
+\
+Edit Apache\'92s configuration file:\
+- nano /usr/local/etc/httpd/httpd.conf\
+\
+Change the following settings in the above file:\
+- Listen 8080 -> Listen 80\
+- DocumentRoot \'93/usr/local/var/www\'94 -> DocumentRoot /your-user-directory\
+- <Directory \'93/usr/local/var/www\'94> -> <Directory /your-user-directory>\
+- AllowOverride None -> AllowOverride All\
+- Uncomment out <LoadModule rewrite_module lib/httpd/modules/mod_rewrite.so>\
+- User _www -> User your-name\
+- Group _www -> Group staff\
+- #ServerName www.example.com:8080 -> ServerName localhost\
+\
+Restart Apache to ensure your configurations changes have taken effect:\
+- sudo apachectl -k restart\
+\
+Xxxx PHP5.6 and PHP7.0 has been deprecated. Only PHP7.1 through 7.3 are officially supported by Brew. If you want to install PHP5.6 or PHP7.0, you will need to add this tap:\
+- brew tap exolnet/homebrew-deprecated\
+\
+Proceed by installing various versions of PHP:\
+- brew install php@7.3\
+- brew install php@7.2/7.1/7.0\
+\
+If preinstalled php is already linked, unlink it and link to new php:\
+- brew unlink php && brew link (\'97force \'97overwrite) php@x.x\
+\
+Restart terminal to make sure php version is correctly linked:\
+- php -v\
+\
+Add the following libphp modules to below <LoadModule rewrite_module lib/httpd/modules/mod_rewrite.so line>:\
+- LoadModule php5_module /usr/local/opt/php@5.6/lib/httpd/modules/libphp5.so\
+- #LoadModule php7_module /usr/local/opt/php@7.0/lib/httpd/modules/libphp7.so\
+- #LoadModule php7_module /usr/local/opt/php@7.1/lib/httpd/modules/libphp7.so\
+\
+Change the following block:\
+\pard\pardeftab720\partightenfactor0
+\cf3 \cb4 \expnd0\expndtw0\kerning0
+<IfModule dir_module>\
+    DirectoryIndex index.html\
+</IfModule>\
+\'97>>>\kerning1\expnd0\expndtw0 \
+\expnd0\expndtw0\kerning0
+<IfModule dir_module>\
+    DirectoryIndex index.php index.html\
+</IfModule>\
+\
+<FilesMatch \\.php$>\
+    SetHandler application/x-httpd-php\
+</FilesMatch>\cb5 \
+\cf0 \cb1 \kerning1\expnd0\expndtw0 Restart the apache:\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 - sudo apachectl -k stop (-k means forcefully)\
+- sudo apachectl start\
+\
+In order to switch to another PHP version, you must do two things:\
+First, comment current php load module in /usr/local/etc/httpd/httpd.conf file and uncomment new php version Loadmodule. Restart Apache server using sudo apachectl -k restart\
+Second, unlink current php version and link to new php version: \
+- brew unlink php && brew link php@new-version\
+\
+\
+How to install extensions using pecl (extensions which were removed from home-brew):\
+\pard\pardeftab720\partightenfactor0
+\cf0 \cb4 \expnd0\expndtw0\kerning0
+- (brew --prefix php@7.2)/bin/pecl install --force xdebug\cb1 \kerning1\expnd0\expndtw0 \
+}
