@@ -1,0 +1,7 @@
+- Pyenv
+git clone .... ~/.pyenv
+
+- NVM
+ruby -v ... | bash
+
+Note: which pyenv, which nvm doesn't work because they are not shell scripts. They are sourced functions.

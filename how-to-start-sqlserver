@@ -1,4 +1,6 @@
 - PostgreSQL Start/Stop
+	brew install postgresql
+
 	\password <user>
 	nano /usr/local/var/postgres/pg_hba.conf
 	change "trust" -> "md5"
@@ -9,6 +11,7 @@
  	(brew services start postgresql)
 
 - MySQL Start/Stop
+	brew install mysql
 	
 	sudo /usr/local/bin/mysql_secure_installation
 
