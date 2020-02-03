@@ -71,7 +71,7 @@ Second, unlink current php version and link to new php version:
 PHP Switcher Script
 - curl -L https://gist.githubusercontent.com/rhukster/f4c04f1bf59e0b74e335ee5d186a98e2/raw > /usr/local/bin/sphp
 - chmod +x /usr/local/bin/sphp
-- php 7.1
+- sphp 7.1
 
 How to install extensions using pecl (extensions which were removed from home-brew):
 - (brew --prefix php@7.2)/bin/pecl install --force xdebug
