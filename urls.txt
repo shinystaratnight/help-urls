@@ -1,3 +1,10 @@
+JIRA
+Trello
+Bitbucket
+Gitlab
+github
+Swagger (api)
+
 Learning Management System
 
 http://enveducation.com/
