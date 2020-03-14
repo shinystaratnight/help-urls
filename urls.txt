@@ -3,7 +3,12 @@ Trello
 Bitbucket
 Gitlab
 github
-Swagger (api)
+Swagger API
+
+VPN: Astrill, ExpressVPN
+
+Remote: Remote Desktop, Anydesk, TeamViewer, Splashtop Business(Streamer), Chrome Remote Desktop (on Chrome)
+
 
 Learning Management System
 
