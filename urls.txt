@@ -1,14 +1,10 @@
-JIRA
-Trello
-Bitbucket
-Gitlab
-github
+JIRA, Trello, Monday.com, codecanyon.net/item/perfex-powerful-open-source-crm/14013737
+Bitbucket, Gitlab, Github
 Swagger API
 
 VPN: Astrill, ExpressVPN
 
 Remote: Remote Desktop, Anydesk, TeamViewer, Splashtop Business(Streamer), Chrome Remote Desktop (on Chrome), VNC Viewer
-
 
 Learning Management System
 
