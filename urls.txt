@@ -1,4 +1,4 @@
-JIRA, Trello, Monday.com, codecanyon.net/item/perfex-powerful-open-source-crm/14013737
+Trello, Monday.com, asana.com, jira.atlassian.com, codecanyon.net/item/perfex-powerful-open-source-crm/14013737
 Bitbucket, Gitlab, Github
 Swagger API
 
