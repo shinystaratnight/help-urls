@@ -7,9 +7,8 @@ Swagger API
           Chrome Remote Desktop (on Chrome), VNC Viewer, Zoom.us
 - VPS: Russia (https://vpsnow.ru/, https://profitserver.ru/)
        Ukraine(https://onliveserver.com/)
-
-VoIP: Dingtone
-Money Transfer: Ding.com (via mobile topup)
+- VoIP: Dingtone
+- Money Transfer: Ding.com (via mobile topup)
 
 Learning Management System
 http://enveducation.com/
