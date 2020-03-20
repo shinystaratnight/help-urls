@@ -2,9 +2,11 @@ Trello, Monday.com, asana.com, jira.atlassian.com, codecanyon.net/item/perfex-po
 Bitbucket, Gitlab, Github
 Swagger API
 
-VPN: Astrill, ExpressVPN
-
-Remote: Remote Desktop, Anydesk, TeamViewer, Splashtop Business(Streamer), Chrome Remote Desktop (on Chrome), VNC Viewer
+- VPN: Astrill, ExpressVPN
+- Remote: Remote Desktop, Anydesk, TeamViewer, Splashtop Business(Streamer), 
+          Chrome Remote Desktop (on Chrome), VNC Viewer, Zoom.us
+- VPS: Russia (https://vpsnow.ru/, https://profitserver.ru/)
+       Ukraine(https://onliveserver.com/)
 
 VoIP: Dingtone
 Money Transfer: Ding.com (via mobile topup)
