@@ -1,6 +1,7 @@
-Trello, Monday.com, asana.com, jira.atlassian.com, codecanyon.net/item/perfex-powerful-open-source-crm/14013737
-Bitbucket, Gitlab, Github
-Swagger API
+- Tasks Management: Trello, Monday.com, asana.com, jira.atlassian.com, 
+                    codecanyon.net/item/perfex-powerful-open-source-crm/14013737
+- Version Management: Bitbucket, Gitlab, Github
+- API Documentation: Swagger API
 
 - VPN: Astrill, ExpressVPN
 - Remote: Remote Desktop, Anydesk, TeamViewer, Splashtop Business(Streamer), 
@@ -9,17 +10,3 @@ Swagger API
        Ukraine(https://onliveserver.com/)
 - VoIP: Dingtone
 - Money Transfer: Ding.com (via mobile topup)
-
-Learning Management System
-http://enveducation.com/
-http://www.davidsonacademy.unr.edu/
-https://www.niche.com/
-https://wilostar3d.com/
-https://www.liberty.edu/
-https://www.educationfinland.fi/
-
-https://www.keystoneschoolonline.com/
-https://onlinehighschool.stanford.edu/academics
-http://www.davidsonacademy.unr.edu/
-https://highschool.utexas.edu/
-https://mizzouk12online.missouri.edu/
