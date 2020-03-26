@@ -8,5 +8,8 @@
           Chrome Remote Desktop (on Chrome), VNC Viewer, Zoom.us
 - VPS: Russia (https://vpsnow.ru/, https://profitserver.ru/)
        Ukraine(https://onliveserver.com/)
-- VoIP: Dingtone
+- VoIP: Dingtone.com
 - Money Transfer: Ding.com (via mobile topup)
+
+- Freelanceing: freelancer.com, upwork.com, guru.com
+                taskcity.com, www.fiverr.com
