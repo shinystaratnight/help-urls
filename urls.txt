@@ -19,3 +19,6 @@
 
 - Private Messaging: https://privnotes.com/
 - Screenshot URL: https://prnt.sc/
+
+- File Transfer: wetransfer.com, 
+                 https://upload.disroot.org/
