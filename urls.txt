@@ -22,3 +22,5 @@
 
 - File Transfer: wetransfer.com, 
                  https://upload.disroot.org/
+- Paypal Verification Check:
+                https://www.paypal-community.com/t5/My-Account/verification-process/td-p/1563883
