@@ -25,3 +25,5 @@
 - Paypal Verification Check:
                 https://www.paypal-community.com/t5/My-Account/verification-process/td-p/1563883
                 https://www.paypal.com/cgi-bin/webscr?cmd=p/acc/seal-CA-unconfirmed-outside
+                
+                https://www.paypal.com/c2/webapps/mpp/ua/legalhub-full?locale.x=en_US
