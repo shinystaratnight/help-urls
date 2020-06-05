@@ -3,7 +3,7 @@
 - Version Management: Bitbucket, Gitlab, Github
 - API Documentation: Swagger API
 
-- VPN: Astrill, ExpressVPN
+- VPN: Astrill, ExpressVPN (buyastrill.com - in China)
 - Remote: Remote Desktop, Anydesk, TeamViewer, Splashtop Business(Streamer), 
           Chrome Remote Desktop (on Chrome), VNC Viewer, Zoom.us
 - VPS: Russia (https://vpsnow.ru/, https://profitserver.ru/)
