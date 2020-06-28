@@ -1,0 +1,11 @@
+Setting up local self signed SSL
+
+Leo Grove edited this page on May 10, 2018 · 1 revision
+use the following line to generate a self signed cert
+openssl req -nodes -x509 -newkey rsa:4096 -keyout key.pem -out cert.pem -days 365 -subj '/CN=www.ssl.local' -extensions SAN -config <(cat /etc/ssl/openssl.cnf <(printf "[SAN]\nsubjectAltName='DNS.1:ssl.local,DNS.2:.ssl.local,DNS.3:sslpki.local,DNS.4:.sslpki.local'"))
+
+test with
+openssl x509 -noout -certopt no_sigdump,no_pubkey -text -in cert.pem
+
+see https://dzone.com/articles/openssl-certificate-with-subjectaltname-one-liner
+you will also need to import the self signed cert see http://blog.getpostman.com/2014/01/28/using-self-signed-certificates-with-postman/
