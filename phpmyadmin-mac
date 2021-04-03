@@ -1,0 +1,11 @@
+1. Fix the 2002 MySQL Socket error
+  sudo mkdir /var/mysql
+  sudo ln -s /tmp/mysql.sock /var/mysql/mysql.sock
+ 
+2. Change Permission
+mkdir ~/Sites/phpmyadmin/config. (Document_Root/<phpmyadmin>/config)
+chmod o+w ~/Sites/phpmyadmin/config
+
+3. Run the set up in the browser (http://localhost/~username/phpmyadmin/setup/ or http://localhost/phpmyadmin/setup/)
+4. You need to create a new localhost mysql server connection, click <New Server>.
+5. Switch to the Authentication tab and set the local mysql root user and the password.
