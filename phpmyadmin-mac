@@ -9,3 +9,9 @@ chmod o+w ~/Sites/phpmyadmin/config
 3. Run the set up in the browser (http://localhost/~username/phpmyadmin/setup/ or http://localhost/phpmyadmin/setup/)
 4. You need to create a new localhost mysql server connection, click <New Server>.
 5. Switch to the Authentication tab and set the local mysql root user and the password.
+
+
+When blowfish secret issue is hit.
+  cp config.sample.inc.php config.inc.php
+In config.inc.php file:
+  $cfg['blowfish_secret'] = 'qtdRoGmbc9{8IZr323xYcSN]0s)r$9b_JUnb{~Xz';
