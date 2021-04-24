@@ -10,6 +10,7 @@ Cmd+P: Go to Files
 Alt+Down/Up: Move line
 Alt+Z: Wrap up the editor
 Alt + Mouse Click: Multi selection
+(Ctrl + Alt + up/down: consequent multi selection)
 Shift+Alt+F: Refactor Code
 
 Plugins in VSCode
