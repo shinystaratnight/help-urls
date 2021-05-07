@@ -1,0 +1,21 @@
+https://dev.to/idrisrampurawala/deploying-django-with-celery-and-redis-on-ubuntu-3fo6
+
+sudo apt-get install supervisor
+
+# for every change in conf file, we need to execute the following commands
+$ sudo supervisorctl reread
+$ sudo supervisorctl update
+$ sudo supervisorctl start all # starting all our processes
+
+# to check the status of our processes
+$ sudo supervisorctl status <program_name|all>
+# example
+$ sudo supervisorctl status all
+celery                           RUNNING   pid 1413, uptime 7:59:29
+celerybeat                       RUNNING   pid 1411, uptime 7:59:29
+my_proj                          RUNNING   pid 1412, uptime 7:59:29
+
+# to start, stop, restart all or some of the processes
+$ sudo supervisorctl start <program_name|all>
+$ sudo supervisorctl restart <program_name|all>
+$ sudo supervisorctl stop <program_name|all>
