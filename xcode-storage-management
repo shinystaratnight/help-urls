@@ -1,0 +1,32 @@
+- Shows the list of simulators/devices
+    xcrun simctl list devices
+
+- Can either delete the individual device(s):
+    xcrun simctl delete D24C18BC-268C-4F0B-9CD8-8EFFDE6619E3
+
+- Or bulk delete all of the unavailable ones with:
+    xcrun simctl delete unavailable
+
+
+
+~/Library/Developer/CoreSimulator/Devices
+
+Check how many simulators that you have downloaded as they take up a lot of space
+~/Library/Developer/Xcode/iOS DeviceSupport
+
+Also delete old archived apps:
+~/Library/Developer/Xcode/Archives
+
+You can also remove to free a lot of memory
+~/Library/Developer/CoreSimulator/Caches/dyld/
+
+
+
+
+
+===== How to uninstall simulator ======
+Delete the particular simulator runtime references (*.simruntime) in the folder: 
+/Library/Developer/CoreSimulator/Profiles/Runtimes
+
+Delete the particular simulator images (*.dmg) in the folder: 
+~/Library/Caches/com.apple.dt.Xcode/Downloads
