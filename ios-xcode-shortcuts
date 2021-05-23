@@ -4,3 +4,5 @@ C + +/- : Zoom window out/in
 Ctrl + Space : Code completion
 ⌥ + ⌘ + [ : Move line up
 ⌥ + ⌘ + ] : Move line down
+CMD + SHIFT + } - Select Next tab.
+CMD + SHIFT + { - Select Previous tab.
