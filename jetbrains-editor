@@ -7,3 +7,5 @@ F5: Duplication the current file in editor
 Cmd+D: Copy line
 Shilf+Alt+Up/Down: Move line
 Alt+F12: Show/Hide Terminal
+
+Ctrl+Shift+N : Project Files (Search files by typing)
